@@ -4,6 +4,29 @@
   <img src="롯데자이안츠 대문.jfif" width="650" height="153"><p>
     <title>로떼 우승 함 하나?</title>
     <meta charset="utf-8">
+    //메인 팝업
+function fncMainPopup() {
+  var popLen = '2';
+
+  if(popLen > 0){
+
+      var param_0 = new Object();
+      param_0.index = "0";
+      param_0.hotlId = "SBSSS";
+      param_0.dbbsId = "20085";
+      param_0.langTypCd = "KR";
+      param_0.subj = "[전 지점] 코로나19 감염병 관련 안내 _ 국문";
+      param_0.popLoc = "0:0";
+      param_0.popSize = "460:526";
+      if("PC,MOBILE,APP".indexOf("PC") > -1){
+        fncMainPopupOpen(param_0);
+      }
+<style>
+a {
+  color:orange;
+}
+</style>
+
     <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
 <script type="text/javascript">
 if(!wcs_add) var wcs_add = {};
@@ -12,8 +35,8 @@ if(window.wcs) {
   wcs_do();
 }
 </script>
-    <input type="button" value="팝업창" />
-    <input type="button" value="팝업창" onclick="showPopup();" />
+    <input type="button" value="코로나 안내문" />
+    <input type="button" value="코로나 안내문" onclick="showPopup();" />
 
   </head>
   <body>
@@ -24,6 +47,16 @@ if(window.wcs) {
       <li><u><a href="경기결과.html">경기결과</a></u></li>
       <li><u><a href="뉴스기사.html">뉴스기사</a></u></li>
     </ul>
+    <!--
+    <h1><a href="Lotte Giants.html"><font color="red">Lotte Giants</font></h1>
+    <ul>
+      <li><u><a href="연혁.html"><font color="red">연혁</font></a></u></li>
+      <li><u><a href="선수단.html"><font color="red">선수단</font></a></u></li>
+      <li><u><a href="경기결과.html"><font color="red">경기결과</font></a></u></li>
+      <li><u><a href="뉴스기사.html"><font color="red">뉴스기사</font></a></u></li>
+    </ul>
+  -->
+    <br>
     <br>
     <br>
     <br>
